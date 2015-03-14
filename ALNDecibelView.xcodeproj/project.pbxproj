@@ -13,6 +13,7 @@
 		87F355691AB1D04100666FEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F355681AB1D04100666FEB /* Images.xcassets */; };
 		87F3556C1AB1D04100666FEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87F3556A1AB1D04100666FEB /* LaunchScreen.xib */; };
 		87F355781AB1D04100666FEB /* ALNDecibelViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F355771AB1D04100666FEB /* ALNDecibelViewTests.swift */; };
+		87F355821AB1D06D00666FEB /* ALNdecibelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F355811AB1D06D00666FEB /* ALNdecibelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		87F355711AB1D04100666FEB /* ALNDecibelViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALNDecibelViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F355761AB1D04100666FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87F355771AB1D04100666FEB /* ALNDecibelViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALNDecibelViewTests.swift; sourceTree = "<group>"; };
+		87F355811AB1D06D00666FEB /* ALNdecibelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALNdecibelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				87F355611AB1D04100666FEB /* AppDelegate.swift */,
 				87F355631AB1D04100666FEB /* ViewController.swift */,
+				87F355811AB1D06D00666FEB /* ALNdecibelView.swift */,
 				87F355651AB1D04100666FEB /* Main.storyboard */,
 				87F355681AB1D04100666FEB /* Images.xcassets */,
 				87F3556A1AB1D04100666FEB /* LaunchScreen.xib */,
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					87F3555B1AB1D04100666FEB = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = J6TMXNN58Z;
 					};
 					87F355701AB1D04100666FEB = {
 						CreatedOnToolsVersion = 6.2;
@@ -212,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F355821AB1D06D00666FEB /* ALNdecibelView.swift in Sources */,
 				87F355641AB1D04100666FEB /* ViewController.swift in Sources */,
 				87F355621AB1D04100666FEB /* AppDelegate.swift in Sources */,
 			);
@@ -336,9 +341,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ALNDecibelView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +353,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ALNDecibelView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -405,6 +414,7 @@
 				87F3557D1AB1D04100666FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87F3557E1AB1D04100666FEB /* Build configuration list for PBXNativeTarget "ALNDecibelViewTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +423,7 @@
 				87F355801AB1D04100666FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
